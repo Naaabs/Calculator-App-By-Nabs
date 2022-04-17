@@ -28,7 +28,7 @@ const calculer = (valeur) => {
                 ecran.textContent = "" ; //Vider l'écran
                 break;
             case '13' :
-                const calcul = eval(ecran.textContent).toFixed(2);
+                const calcul = eval(ecran.textContent).toFixed(2); //Grâce à toFixed on arrondi le résultat à 2 chiffres après la virgule.
                 ecran.textContent = calcul;
                 break;
             default :  // cliquer sur le reste des boutons
